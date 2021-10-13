@@ -17,5 +17,6 @@ then start the applications in the following order:
 3.api-gateway
 4.user-service
 5.department-service
+6. download Zipkin jar from [Zipkin]https://zipkin.io/ and run the jar file
 ```
 ###port for running each of the microservice can be changed in the application.properties file
