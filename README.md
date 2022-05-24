@@ -1,22 +1,25 @@
-# springBoot-microservice
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">User-Department MicroService ✨</h1>
 
-##This is a project made up of 5 microservices:
+  <p align="center">
+    Made up of 5 backend microservices: Eureka server(Registry to all microservices),CloudConfig microservice(Holds all the configuration data common to all the microservcies),API Gateway microservice(routes requests and responses between microservices),user microservice( holds logic for a user service),Department microservice(holds logic for department service). 
+    <br />
+    <br />
+  </p>
+</p>
 
-1.Service registry microservice.(Eureka server).
-2.Cloud-config service.(Holds the common configs for all the other microservices in one github file).
-3.API-gateway microservice.Acts as the gateway to route requests and responses between microservices.
-4.User microservice.Holds crud operations for a user object.Each user belongs to a certain department
-5.Department microservice.Holds crud operations for a department service.
 
-### Pre-Usage
-Clone the project,
-then start the applications in the following order:
-```java
-1. service-registry
-2.cloud-config server
-3.api-gateway
-4.user-service
-5.department-service
-6. download Zipkin jar from [Zipkin]https://zipkin.io/ and run the jar file
-```
-###port for running each of the microservice can be changed in the application.properties file
+<br />
+<br />
+
+## Technology Stack 🛠
+
+| [SpringBoot ]
+| [MySQL ]
+| [Eureka-client]
+| [ZipKin-Sleuth]
+| [Hibernate]
+<br />
+<br />
